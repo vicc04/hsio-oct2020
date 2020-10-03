@@ -51,13 +51,13 @@ export default class Home extends React.Component {
         if (rate < 10) {
           status = "In Control";
           color = "green";
-        } else if (rate >= 10 && rate < 20) {
+        } else if (rate >= 10 && rate < 15) {
           status = "Mild";
           color = "yellow";
-        } else if (rate >= 20 && rate < 30) {
+        } else if (rate >= 15 && rate < 23) {
           status = "Moderate";
           color = "orange";
-        } else if (rate >= 30) {
+        } else if (rate >= 23) {
           status = "Severe";
           color = "red";
         }
